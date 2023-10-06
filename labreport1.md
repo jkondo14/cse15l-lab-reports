@@ -28,12 +28,13 @@ It was an error as cd requires a file as an argument.
 [user@sahara ~/lecture1]$ ls
 Hello.class  Hello.java  messages  README
 ```
-It was not an error and displayed all the directories
+It was **not** an error and displayed all the direct directories and files.
 
-**ls with file Argument**
+**ls with Directory Argument**
 ```
 [user@sahara ~]$ ls lecture1/
 Hello.class  Hello.java  messages  README
 [user@sahara ~]$ ls lecture1/messages
 en-us.txt  es-mx.txt  jp.txt  zh-cn.txt
 ```
+It was **not** an error as ls shows the files within the current Directory.
