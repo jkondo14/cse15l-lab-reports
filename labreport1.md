@@ -38,3 +38,31 @@ Hello.class  Hello.java  messages  README
 en-us.txt  es-mx.txt  jp.txt  zh-cn.txt
 ```
 It was **not** an error as ls shows the files within the current Directory.
+
+**ls with File Argument**
+```
+[user@sahara ~/lecture1]$ ls messages/en-us.txt
+messages/en-us.txt
+[user@sahara ~/lecture1]$
+```
+It was **not** an error as ls displays the file used to enter as the argument.
+
+**cat with no Argument**
+```
+[user@sahara ~/lecture1]$ cat
+hi
+hi
+hi
+hi
+^C
+[user@sahara ~/lecture1]$
+```
+It was an error as it just printed the input and continued to do so until ***control+C*** was inserted.
+
+**cat with Directory Argument**
+```
+[user@sahara ~/lecture1]$ cat messages
+cat: messages: Is a directory
+[user@sahara ~/lecture1]$
+```
+It was an error as cat requires a file for the argument and not a directory.
