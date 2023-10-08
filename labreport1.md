@@ -3,7 +3,8 @@
 [user@sahara ~]$ cd
 [user@sahara ~]$
 ```
-It was not an error, it did not change the directory due to an empty argument.
+Since cd means change directory, using the cd without the argument did not change the directory and remains in the same directory. 
+It was not an error since it did not change the directory due to an empty argument.
 
 
 **cd with Directory Argument**
@@ -12,6 +13,7 @@ It was not an error, it did not change the directory due to an empty argument.
 [user@sahara ~/lecture1]$
 It was not an error as it changed the directory.
 ```
+Since cd means change directory, using the cd with a directory will change the current directory to the given directory in the argument.
 It was not an error as it changed the directory.
 
 
@@ -20,7 +22,8 @@ It was not an error as it changed the directory.
 [user@sahara ~]$ cd lecture1/messages/en-us.txt
 bash: cd: lecture1/messages/en-us.txt: Not a directory
 ```
-It was an error as cd requires a file as an argument.
+Since cd means change directory, using a cd with a file argument will not change the directory since it is not a directory.
+It was an error as cd requires a directory as opposed to a file as an argument.
 
 
 **ls with no Argument**
@@ -28,6 +31,7 @@ It was an error as cd requires a file as an argument.
 [user@sahara ~/lecture1]$ ls
 Hello.class  Hello.java  messages  README
 ```
+ls is a command used to list files of the current directory, and here ls displayed the direct files and folders in lecture1.
 It was **not** an error and displayed all the direct directories and files.
 
 **ls with Directory Argument**
