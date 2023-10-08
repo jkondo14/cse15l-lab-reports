@@ -40,7 +40,7 @@ Hello.class  Hello.java  messages  README
 [user@sahara ~]$ ls lecture1/messages
 en-us.txt  es-mx.txt  jp.txt  zh-cn.txt
 ```
-ls is a command used to list files and folders of a directory, and ls when given a specific directory lists the files within that directory like .txt files of messages.
+ls is a command used to list files and folders of a directory. ls when given a specific directory lists the files within that directory like .txt files of messages.
 It was **not** an error as ls shows the files within the current Directory.
 
 **ls with File Argument**
