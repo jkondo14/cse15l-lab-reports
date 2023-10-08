@@ -11,7 +11,6 @@ It was not an error since it did not change the directory due to an empty argume
 ```
 [user@sahara ~]$ cd lecture1/
 [user@sahara ~/lecture1]$
-It was not an error as it changed the directory.
 ```
 Since cd means change directory, using the cd with a directory will change the current directory to the given directory in the argument.
 It was not an error as it changed the directory.
