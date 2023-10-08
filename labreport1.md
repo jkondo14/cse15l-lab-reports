@@ -66,3 +66,22 @@ cat: messages: Is a directory
 [user@sahara ~/lecture1]$
 ```
 It was an error as cat requires a file for the argument and not a directory.
+
+**cat with File Argument**
+```
+[user@sahara ~/lecture1]$ cat messages/en-us.txt
+Hello World!
+[user@sahara ~/lecture1]$ cat Hello.java
+import java.io.IOException;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Path;
+
+public class Hello {
+  public static void main(String[] args) throws IOException {
+    String content = Files.readString(Path.of(args[0]), StandardCharsets.UTF_8);    
+    System.out.println(content);
+  }
+}[user@sahara ~/lecture1]$
+```
+It was **not** an error as cat and cat printed out the txt file and code of the java file.
