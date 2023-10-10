@@ -6,7 +6,7 @@
 [user@sahara ~]$ cd
 [user@sahara ~]$
 ```
-Since cd means change directory, using the cd without the argument did not change the directory and remains in the same directory. 
+Since cd means change directory, using the cd without the argument did not change the directory since it did not know what directory it should change to and remained in the same directory which is home. 
 It was not an error since it did not change the directory due to an empty argument.
 
 
@@ -15,7 +15,7 @@ It was not an error since it did not change the directory due to an empty argume
 [user@sahara ~]$ cd lecture1/
 [user@sahara ~/lecture1]$
 ```
-Since cd means change directory, using the cd with a directory will change the current directory to the given directory in the argument.
+Using the cd with a directory caused the working directory to change to the given directory in the argument which was lecture1 for this instance.
 It was not an error as it changed the directory.
 
 
@@ -24,7 +24,7 @@ It was not an error as it changed the directory.
 [user@sahara ~]$ cd lecture1/messages/en-us.txt
 bash: cd: lecture1/messages/en-us.txt: Not a directory
 ```
-Since cd means change directory, using a cd with a file argument will not change the directory since it is not a directory.
+Above we used cd with a file argument, which did not change the directory since a file is not a directory and outputted an error message.
 It was an error as cd requires a directory as opposed to a file as an argument.
 
 
