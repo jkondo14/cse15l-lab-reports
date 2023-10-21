@@ -3,10 +3,15 @@
 
 ## cd with no Argument
 ```
-[user@sahara ~]$ cd
+[user@sahara ~]$ cd /home/lecture1/messages
+[user@sahara ~/lecture1/messages]$ pwd
+/home/lecture1/messages
+[user@sahara ~/lecture1/messages]$ cd
+[user@sahara ~]$ pwd
+/home
 [user@sahara ~]$
 ```
-Since **cd** means change directory, using the cd without the argument did not change the directory since it did not know what directory it should change to. The working directory remained in the same directory which is the home directory. 
+In the example above, the current directory is ~/lecture and when cd without argument was used, the working directory changed to /home. Since **cd** means change directory, using the cd without the argument changes the directory to the home directory as that is the default directory and no specific directory was given in the argument.
 It was not an error since it did not change the directory due to an empty argument.
 
 
