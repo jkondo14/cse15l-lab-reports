@@ -11,7 +11,7 @@
 /home
 [user@sahara ~]$
 ```
-In the example above, the current directory is ~/lecture and when cd without argument was used, the working directory changed to /home. Since **cd** means change directory, using the cd without the argument changes the working directory to the home directory as that is the default directory and no specific directory was given in the argument.
+In the example above, the working directory is lecture1 and when **cd** without argument was used, the working directory changed to /home. Since **cd** means change directory, using the cd without the argument changes the working directory to the home directory as that is the default directory and no specific directory was given in the argument.
 It was **not** an error since it did change the working directory to the home directory.
 
 
@@ -21,7 +21,7 @@ It was **not** an error since it did change the working directory to the home di
 [user@sahara ~/lecture1]$ pwd
 /home/lecture1
 ```
-In the above example, the working directory is the home directory and cd was given a directory argument, which was *lecture1*, and the working directory was changed to lecture1. Using the **cd** with a directory caused the working directory to change to the given directory in the argument which was lecture1 for this instance.
+In the above example, the working directory is the home directory, and **cd** was given a directory argument, which was *lecture1*, and the working directory was changed to lecture1. Using the **cd** with a directory caused the working directory to change to the given directory in the argument which was lecture1 for this instance.
 It was **not** an error as it changed the directory.
 
 
@@ -33,8 +33,8 @@ bash: cd: lecture1/messages/en-us.txt: Not a directory
 [user@sahara ~/lecture1/messages]$ cd en-us.txt 
 bash: cd: en-us.txt: Not a directory
 ```
-In the above example, the working directory was the home directory and when using cd with a file, which was the en-us.txt, the terminal sent an error message. Even when changing to the direct parent directory of the en-us.txt, the terminal still gave us an error. Above we used **cd** with a file argument, which did not change the directory since a file is not a directory and outputted an error message.
-It was an error as cd requires a directory as opposed to a file as an argument.
+In the above example, the working directory was the home directory, and when using **cd** with a txt file, which was the en-us.txt, the terminal sent an error message. Even when changing to the direct parent directory of the en-us.txt, the terminal still gave us an error. Above we used **cd** with a file argument, which did not change the directory since a file is not a directory and outputted an error message.
+It was an error as cd requires a directory instead of a file as an argument.
 
 
 ## ls with no Argument
@@ -42,7 +42,7 @@ It was an error as cd requires a directory as opposed to a file as an argument.
 [user@sahara ~/lecture1]$ ls
 Hello.class  Hello.java  messages  README
 ```
-**ls** is a command used to list files and folders of a directory, and here ls displayed the direct files and folders in the current directory, which is lecture1.
+In the code above the working directory is lecture1 and when **ls** was used to show the direct files and directory in the working directory, which are Hello.class, Hello.java, messages, and README. **ls** is a command used to list files and folders of a directory, and here ls without an argument displays the direct files and folders in the working directory.
 It was **not** an error and displayed all the direct directories and files.
 
 ## ls with Directory Argument
@@ -52,7 +52,7 @@ Hello.class  Hello.java  messages  README
 [user@sahara ~]$ ls lecture1/messages
 en-us.txt  es-mx.txt  jp.txt  zh-cn.txt
 ```
-Above **ls** was given a specific directory that the user wanted a list of and the terminal lists the files within that directory like .txt files of  the messages directory..
+In the example above, the working directory was home, and when using **ls** with a directory argument, which was lecture1, the terminal listed out the direct files and directory under lecture1. When *ls** is given a specific directory that the user wants to list out, the terminal lists the files within that directory like .txt files of the messages directory in lines 3 & 4.
 It was **not** an error as ls shows the files within the current Directory.
 
 ## ls with File Argument
@@ -61,7 +61,7 @@ It was **not** an error as ls shows the files within the current Directory.
 messages/en-us.txt
 [user@sahara ~/lecture1]$
 ```
-Since **ls** is given a file as an argument, it just lists the file as the output since it is not a directory and cannot have any folders or file within the file.
+Since **ls** is given a file as an argument, it just lists the file as the output since it is not a directory and cannot have any folders or files within the file.
 It was **not** an error as ls displays the file used to enter as the argument.
 
 ## cat with no Argument
