@@ -106,4 +106,4 @@ public class Hello {
 }[user@sahara ~/lecture1]$
 ```
 In the example above, **cat** was given a file path, *messages/en-us.txt* and *Hello.java*, in the working directory of lecture1 and printed "Hello World!" and the Java code. **cat** was given a file argument, which led to the terminal printing out the contents of the files, which were the *en-us.txt* file and the Hello.java file from the *lecture1* working directory on the next line.
-It was **not** an error as cat and cat printed out the txt file and code of the java file.
+It was **not** an error as **cat** and **cat** printed out the txt file and code of the java file.
