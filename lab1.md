@@ -52,16 +52,18 @@ Hello.class  Hello.java  messages  README
 [user@sahara ~]$ ls lecture1/messages
 en-us.txt  es-mx.txt  jp.txt  zh-cn.txt
 ```
-In the example above, the working directory was home, and when using **ls** with a directory argument, which was lecture1, the terminal listed out the direct files and directory under lecture1. When *ls** is given a specific directory that the user wants to list out, the terminal lists the files within that directory like .txt files of the messages directory in lines 3 & 4.
+In the example above, the working directory was home, and when using **ls** with a directory argument, which was lecture1, the terminal listed out the direct files and directory under lecture1. When **ls** is given a specific directory that the user wants to list out, the terminal lists the files within that directory like .txt files of the messages directory in lines 3 & 4.
 It was **not** an error as ls shows the files within the current Directory.
 
 ## ls with File Argument
 ```
 [user@sahara ~/lecture1]$ ls messages/en-us.txt
 messages/en-us.txt
-[user@sahara ~/lecture1]$
+[user@sahara ~/lecture1]$ cd messages
+[user@sahara ~/lecture1/messages]$ ls en-us.txt
+en-us.txt
 ```
-Since **ls** is given a file as an argument, it just lists the file as the output since it is not a directory and cannot have any folders or files within the file.
+In the code above, the working directory is lecture1 and when a file path is given as an argument for **ls**, a file path is printed out in the terminal. Since **ls** is given a file as an argument, it just lists the file as the output since it is not a directory and cannot have any folders or files within the file, such as when we had the working directory in lecture1/messages and gave the terminal en-us.txt as the argument for **ls**.
 It was **not** an error as ls displays the file used to enter as the argument.
 
 ## cat with no Argument
