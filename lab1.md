@@ -11,25 +11,29 @@
 /home
 [user@sahara ~]$
 ```
-In the example above, the current directory is ~/lecture and when cd without argument was used, the working directory changed to /home. Since **cd** means change directory, using the cd without the argument changes the directory to the home directory as that is the default directory and no specific directory was given in the argument.
-It was not an error since it did not change the directory due to an empty argument.
+In the example above, the current directory is ~/lecture and when cd without argument was used, the working directory changed to /home. Since **cd** means change directory, using the cd without the argument changes the working directory to the home directory as that is the default directory and no specific directory was given in the argument.
+It was **not** an error since it did change the working directory to the home directory.
 
 
 ## cd with Directory Argument
 ```
 [user@sahara ~]$ cd lecture1/
-[user@sahara ~/lecture1]$
+[user@sahara ~/lecture1]$ pwd
+/home/lecture1
 ```
-Using the **cd** with a directory caused the working directory to change to the given directory in the argument which was lecture1 for this instance.
-It was not an error as it changed the directory.
+In the above example, the working directory is the home directory and cd was given a directory argument, which was *lecture1*, and the working directory was changed to lecture1. Using the **cd** with a directory caused the working directory to change to the given directory in the argument which was lecture1 for this instance.
+It was **not** an error as it changed the directory.
 
 
 ## cd with File Argument
 ```
-[user@sahara ~]$ cd lecture1/messages/en-us.txt
+[user@sahara ~]$ cd lecture1/messages/en-us.txt 
 bash: cd: lecture1/messages/en-us.txt: Not a directory
+[user@sahara ~]$ cd lecture1/messages/
+[user@sahara ~/lecture1/messages]$ cd en-us.txt 
+bash: cd: en-us.txt: Not a directory
 ```
-Above we used **cd** with a file argument, which did not change the directory since a file is not a directory and outputted an error message.
+In the above example, the working directory was the home directory and when using cd with a file, which was the en-us.txt, the terminal sent an error message. Even when changing to the direct parent directory of the en-us.txt, the terminal still gave us an error. Above we used **cd** with a file argument, which did not change the directory since a file is not a directory and outputted an error message.
 It was an error as cd requires a directory as opposed to a file as an argument.
 
 
