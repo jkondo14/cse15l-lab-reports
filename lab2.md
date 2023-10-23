@@ -57,7 +57,10 @@ The method also printed the next value onto a new line allowing for the two valu
 ## Private Key
 <img width="401" alt="Screen Shot 2023-10-22 at 8 00 56 PM" src="https://github.com/jkondo14/cse15l-lab-reports/assets/146896972/aa9bdf98-e3d6-48d7-975b-396b2da4f282">
 
- ## Public key
+<br>
+
+## Public Key
+
 <img width="339" alt="Screen Shot 2023-10-22 at 8 22 36 PM" src="https://github.com/jkondo14/cse15l-lab-reports/assets/146896972/30328466-4b33-4c16-9cb6-0512f82dc2e4">
 
 
