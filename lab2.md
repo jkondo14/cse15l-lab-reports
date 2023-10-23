@@ -44,10 +44,16 @@ class StringServer {
     }
 ```
 <img width="1436" alt="Screen Shot 2023-10-22 at 7 25 19 PM" src="https://github.com/jkondo14/cse15l-lab-reports/assets/146896972/8a6ba53f-ecc9-4ec6-8933-6f3695b2c13b">
-In the screenshot above, the add-message query method is being called with a URI value from gmail.com. The method proceeded to add the code into the String array named mess and was able to handle a value of a URI.
+In the screenshot above, the add-message query is called with a URI value from gmail.com. 
+The getpath and getQuery methods were used within the code and allowed the code to retrieve the argument as the value being inserted into the Array.
+The method proceeded to add the code into the String array named mess and was able to handle a value of a URI.
 <img width="1440" alt="Screen Shot 2023-10-22 at 7 25 30 PM" src="https://github.com/jkondo14/cse15l-lab-reports/assets/146896972/e182f581-7d18-4b67-b31e-4c280850a9e2">
-In the screenshot above, the add-message query method is being called with a value of "Professor Joe CSE 15L. The method proceeded to add the code into the String array named mess and was able to handle a value with spaces, numbers, and characters. 
+In the screenshot above, the add-message query method is being called with a value of "Professor Joe CSE 15L". 
+The getpath and getQuery methods were used within the code and allowed the code to retrieve the argument as the value being inserted into the Array.
+The method proceeded to add the code into the String array named mess and was able to handle a value with spaces, numbers, and characters. 
 The method also printed the next value onto a new line allowing for the two values to stack.
 
 # Part 2: SSH Key
 
+# Part 3: Reflection
+In the lab for weeks 2 and 3, I learned the usage of ssh and the ability to access a computer or server, like the ieng6 server, remotely.
