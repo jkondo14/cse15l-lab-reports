@@ -58,7 +58,8 @@ The method also printed the next value onto a new line allowing for the two valu
 <img width="401" alt="Screen Shot 2023-10-22 at 8 00 56 PM" src="https://github.com/jkondo14/cse15l-lab-reports/assets/146896972/aa9bdf98-e3d6-48d7-975b-396b2da4f282">
 
  ## Public key
-<img width="653" alt="Screen Shot 2023-10-22 at 8 09 47 PM" src="https://github.com/jkondo14/cse15l-lab-reports/assets/146896972/3e32ca02-06c1-46a5-b1e7-a07e3111f274">
+<img width="339" alt="Screen Shot 2023-10-22 at 8 22 36 PM" src="https://github.com/jkondo14/cse15l-lab-reports/assets/146896972/30328466-4b33-4c16-9cb6-0512f82dc2e4">
+
 
 ## Logging into ieng6 without password
 <img width="666" alt="Screen Shot 2023-10-22 at 8 08 08 PM" src="https://github.com/jkondo14/cse15l-lab-reports/assets/146896972/e41143aa-ba86-475f-933d-1b0ce2f5229d">
