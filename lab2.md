@@ -55,14 +55,13 @@ The method also printed the next value onto a new line allowing for the two valu
 
 # Part 2: SSH Key
 ## Private Key
-<img width="401" alt="Screen Shot 2023-10-22 at 8 00 56 PM" src="https://github.com/jkondo14/cse15l-lab-reports/assets/146896972/aa9bdf98-e3d6-48d7-975b-396b2da4f282">
+<img width="379" alt="Screenshot 2023-11-03 at 2 34 38 AM" src="https://github.com/jkondo14/cse15l-lab-reports/assets/146896972/d5990296-11da-48b4-8c8e-83acb4e7c196">
+
 
 <br>
 
 ## Public Key
-
-<img width="339" alt="Screen Shot 2023-10-22 at 8 22 36 PM" src="https://github.com/jkondo14/cse15l-lab-reports/assets/146896972/30328466-4b33-4c16-9cb6-0512f82dc2e4">
-
+<img width="478" alt="Screenshot 2023-11-03 at 2 37 21 AM" src="https://github.com/jkondo14/cse15l-lab-reports/assets/146896972/46975b40-9532-4190-afeb-1a594418e842">
 
 ## Logging into ieng6 without password
 <img width="666" alt="Screen Shot 2023-10-22 at 8 08 08 PM" src="https://github.com/jkondo14/cse15l-lab-reports/assets/146896972/e41143aa-ba86-475f-933d-1b0ce2f5229d">
