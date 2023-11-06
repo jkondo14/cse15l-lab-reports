@@ -62,3 +62,64 @@ The original code changed each index of the original array with elements from ne
 <br />
 <br />
 The new code copies the elements from the original array into newArray in reverse orders and returns newArray unlike the original code, where it returned the original array.
+
+## Part 2 - Researching Commands
+### Find Command
+**find -empty**
+```
+tamonkondo@Tamons-MacBook-Air technical % find biomed -empty
+biomed/s.txt
+```
+The find command with the empty primary finds an empty file within the directory and in the code above, I added an empty txt file to biomed. After that, I used the find biomed -empty command to see if the biomed directory had any empty files, which the command could find. The find -empty command is useful to ensure there are no empty files or which empty files are on hand to write in. 
+```
+tamonkondo@Tamons-MacBook-Air technical % find biomed -empty
+biomed/s.txt
+tamonkondo@Tamons-MacBook-Air technical %
+```
+The find command with the empty primary finds an empty file within the directory and in the code above, since the plos directory did not have any empty files, the terminal returned nothing. The find -empty command is useful to ensure there are no empty files or which empty files are on hand to write in. 
+<br />
+<br />
+**find -delete**
+```
+tamonkondo@Tamons-MacBook-Air technical % find biomed/s.txt -delete
+tamonkondo@Tamons-MacBook-Air technical %
+```
+The find -delete command takes a file path as an argument and deletes the file in the file path like how the command deleted s.txt from the biomed directory. This is useful when we need to get rid of a file when we know the name and do not want to look for it, especially in bigger files where there can be tens of thousands of files.
+```
+tamonkondo@Tamons-MacBook-Air technical % find biomed/a.txt -delete    
+find: biomed/a.txt: No such file or directory
+tamonkondo@Tamons-MacBook-Air technical % find biomed/rr196.txt -delete
+tamonkondo@Tamons-MacBook-Air technical % 
+```
+The find -delete command takes a file path as an argument and deletes the file in the file path like how the command deleted rr196.txt from the biomed directory. However, this command does not work if the file does not exist within the directory such as a.txt. This is useful when we need to get rid of a file when we know the name and do not want to look for it, especially in bigger files where there can be tens of thousands of files.
+<br />
+<br />
+**find -type**
+```
+tamonkondo@Tamons-MacBook-Air technical % find biomed/rr191.txt  -type f
+biomed/rr191.txt
+tamonkondo@Tamons-MacBook-Air technical % 
+```
+The find -type command finds a certain type of file depending on what the argument is after the type command. The code above shows that using -type with f shows the regular files within biomed/rr191.txt, which is the rr191.txt file within the biomed directory. The -type command for find is especially useful when looking for a certain type of file within a directory or a folder since there can be a lot of files and this command can be used to filter it.
+```
+tamonkondo@Tamons-MacBook-Air technical % find 911report -type f
+911report/chapter-13.4.txt
+911report/chapter-13.5.txt
+911report/chapter-13.1.txt
+911report/chapter-13.2.txt
+911report/chapter-13.3.txt
+911report/chapter-3.txt
+911report/chapter-2.txt
+911report/chapter-1.txt
+911report/chapter-5.txt
+911report/chapter-6.txt
+911report/chapter-7.txt
+911report/chapter-9.txt
+911report/chapter-8.txt
+911report/preface.txt
+911report/chapter-12.txt
+911report/chapter-10.txt
+911report/chapter-11.txt
+tamonkondo@Tamons-MacBook-Air technical %
+```
+The find -type command finds a certain type of file depending on what the argument is after the type command. The code above shows that using -type with f shows the regular files within the 911report directory, which is the handful of files within the 911report directory. The -type command for find is especially useful when looking for a certain type of file within a directory or a folder since there can be a lot of files and this command can be used to filter it.
