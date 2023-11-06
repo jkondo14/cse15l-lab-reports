@@ -66,6 +66,7 @@ The new code copies the elements from the original array into newArray in revers
 ## Part 2 - Researching Commands
 ### Find Command
 For sourcing, I used the man find command in the terminal to find which primaries to use for the find command.
+<br />
 **find -empty**
 ```
 tamonkondo@Tamons-MacBook-Air technical % find biomed -empty
