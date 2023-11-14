@@ -56,11 +56,13 @@ For sourcing, I used the man find command in the terminal to find which primarie
 <br />
 **find -empty**
 ```
+tamonkondo@Tamons-MacBook-Air technical % man find
 tamonkondo@Tamons-MacBook-Air technical % find biomed -empty
 biomed/s.txt
 ```
 The find command with the empty primary finds an empty file within the directory and in the code above, I added an empty txt file to biomed. After that, I used the find biomed -empty command to see if the biomed directory had any empty files, which the command could find. The find -empty command is useful to ensure there are no empty files or which empty files are on hand to write in. 
 ```
+tamonkondo@Tamons-MacBook-Air technical % man find
 tamonkondo@Tamons-MacBook-Air technical % find biomed -empty
 biomed/s.txt
 tamonkondo@Tamons-MacBook-Air technical %
@@ -70,11 +72,13 @@ The find command with the empty primary finds an empty file within the directory
 <br />
 **find -delete**
 ```
+tamonkondo@Tamons-MacBook-Air technical % man find
 tamonkondo@Tamons-MacBook-Air technical % find biomed/s.txt -delete
 tamonkondo@Tamons-MacBook-Air technical %
 ```
 The find -delete command takes a file path as an argument and deletes the file in the file path like how the command deleted s.txt from the biomed directory. This is useful when we need to get rid of a file when we know the name and do not want to look for it, especially in bigger files where there can be tens of thousands of files.
 ```
+tamonkondo@Tamons-MacBook-Air technical % man find
 tamonkondo@Tamons-MacBook-Air technical % find biomed/a.txt -delete    
 find: biomed/a.txt: No such file or directory
 tamonkondo@Tamons-MacBook-Air technical % find biomed/rr196.txt -delete
@@ -85,12 +89,14 @@ The find -delete command takes a file path as an argument and deletes the file i
 <br />
 **find -type**
 ```
+tamonkondo@Tamons-MacBook-Air technical % man find
 tamonkondo@Tamons-MacBook-Air technical % find biomed/rr191.txt  -type f
 biomed/rr191.txt
 tamonkondo@Tamons-MacBook-Air technical % 
 ```
 The find -type command finds a certain type of file depending on what the argument is after the type command. The code above shows that using -type with f shows the regular files within biomed/rr191.txt, which is the rr191.txt file within the biomed directory. The -type command for find is especially useful when looking for a certain type of file within a directory or a folder since there can be a lot of files and this command can be used to filter it.
 ```
+tamonkondo@Tamons-MacBook-Air technical % man find
 tamonkondo@Tamons-MacBook-Air technical % find 911report -type f
 911report/chapter-13.4.txt
 911report/chapter-13.5.txt
@@ -116,6 +122,7 @@ The find -type command finds a certain type of file depending on what the argume
 <br />
 **find -print**
 ```
+tamonkondo@Tamons-MacBook-Air technical % man find
 tamonkondo@Tamons-MacBook-Air technical % find 911report -print
 911report
 911report/chapter-13.4.txt
@@ -139,6 +146,7 @@ tamonkondo@Tamons-MacBook-Air technical %
 ```
 The find -print command prints out all the files within that directory and the directories within the directory, including the directory specified in the command. The code above shows the directories and files of the 911report directory. The find -print command is useful when wanting to see what directories or files or contained in a specific directory without having to actually go click around and look for it. 
 ```
+tamonkondo@Tamons-MacBook-Air technical % man find
 tamonkondo@Tamons-MacBook-Air technical % find government -print
 government
 government/About_LSC
