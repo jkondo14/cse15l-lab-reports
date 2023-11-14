@@ -2,7 +2,7 @@
 ---
 ## Part 1 - Bugs
 ---
-### Fail-Inducing Input
+### A failure-inducing input for the buggy program, as a JUnit test and any associated code
 ```
   @Test
   public void testReversed() {
@@ -10,7 +10,7 @@
     assertArrayEquals(new int[]{9,8}, ArrayExamples.reversed(input1));
   }
 ```
-### Input that does not induce a failure
+### An input that doesn’t induce a failure, as a JUnit test and any associated code
 ```
   @Test
   public void testReversed() {
@@ -19,19 +19,6 @@
   }
 ```
 ### Symptoms of Fail-Inducing Input
-```
-  @Test
-  public void testReversed() {
-    int[] input1 = {};
-    assertArrayEquals(new int[]{}, ArrayExamples.reversed(input1));
-  }
-
-    @Test
-  public void testReversed2() {
-    int[] input1 = {8};
-    assertArrayEquals(new int[]{8}, ArrayExamples.reversed(input1));
-  }
-```
 <img width="979" alt="Screenshot 2023-11-05 at 8 50 39 PM" src="https://github.com/jkondo14/cse15l-lab-reports/assets/146896972/35a553f6-b3d4-4d9c-8ac1-cdb98be92b74">
 
 ### Bug Fix Before and After
