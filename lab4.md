@@ -85,6 +85,7 @@ In the terminal, I accessed **bash test.sh** to run the test script.
 **Keys pressed:**  *\<up\>* *\<up\>* *\<enter\>*
 <br/>
 The **up key** was used to access the previous command **bash test.sh**, and the **enter key** ran the test script and showed the results of the test in the terminal.
+
 ---
 
 ## Step 9
