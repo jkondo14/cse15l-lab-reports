@@ -1,0 +1,99 @@
+# Lab Report 4
+---
+## Step 4
+
+<img width="561" alt="Screenshot 2023-11-19 at 8 21 46 PM" src="https://github.com/jkondo14/cse15l-lab-reports/assets/146896972/7e313165-8464-4576-96a8-1322e7d73c23">
+
+<br>
+<br>
+
+In order to log in to ssh, I typed into the terminal *ssh* cs15lfa23nl@ieng6.ucsd.edu
+<br/>
+**Keys pressed:** *\<enter\>*
+<br/>
+The **enter key** ran the command and logged me into my ssh account. 
+
+---
+
+## Step 5
+
+<img width="879" alt="Screenshot 2023-11-19 at 7 38 56 PM" src="https://github.com/jkondo14/cse15l-lab-reports/assets/146896972/985e8cb9-982b-4dba-8273-cc63ee30d7f5">
+
+<br>
+<br>
+
+In the terminal, I typed **cd .ssh** to change the working directory to the ssh directory.
+<br/>
+**Keys pressed:** *\<enter\>*
+<br/>
+The **enter key** changed the working directory.
+<br/>
+In the terminal, I typed **git clone git@github.com:jkondo14/lab7.git** to clone the repository we forked earlier.
+<br/>
+**Keys pressed:** *\<enter\>*
+<br/>
+The **enter key** cloned the repository into the ssh account. 
+
+---
+
+## Step 6
+<img width="684" alt="Screenshot 2023-11-19 at 9 09 07 PM" src="https://github.com/jkondo14/cse15l-lab-reports/assets/146896972/1cd8948c-eb14-4e12-a569-51b4905c8062">
+
+<br>
+<br>
+
+In the terminal, I typed **cd lab7** to change the working directory to the lab7 directory.
+<br/>
+**Keys pressed:**  *\<enter\>*
+<br/>
+The **enter key** changed the working directory.
+<br/>
+<br/>
+In the terminal, I typed **bash test.sh** to run the test script. 
+<br/>
+**Keys pressed:**  *\<enter\>*
+<br/>
+The **enter key** ran the test script and showed the results of the test in the terminal.
+
+---
+
+## Step 7
+<img width="738" alt="Screenshot 2023-11-19 at 7 48 00 PM" src="https://github.com/jkondo14/cse15l-lab-reports/assets/146896972/6c30be7b-64fd-4f09-88c0-1b2df9902ef9">
+
+<br>
+<br>
+
+In the terminal, I typed **vim ListExamples.java** to edit the ListExamples.java.
+<br/>
+**Keys pressed:**  *\<down\>* *\<down\>* *\<down\>* *\<down\>* *\<down\>* *\<down\>* *\<down\>* *\<l\>* *\<l\>* *\<l\>* *\<l\>* *\<l\>* *\<l\>* *\<l\>* *\<l\>* *\<l\>* *\<l\>*
+*\<x\>* *\<i\>* *\<2\>* *\<esc\>* *\<\:\>* *\<w\>* *\<q\>*
+
+<br>
+
+The down key was used to get to the line I wanted to edit, I used the l key to move to the right to the bug, the x key was used to delete the bug,
+the i key was to enter insert mode, the 2 was to edit the index to index2, the escape key was to escape editing, and the :wp command was used to save and exit the file.
+
+---
+
+## Step 8
+
+<img width="387" alt="Screenshot 2023-11-19 at 9 45 14 PM" src="https://github.com/jkondo14/cse15l-lab-reports/assets/146896972/d0207ed1-b94f-4cbf-aaab-4d903f3b85d8">
+
+
+In the terminal, I accessed **bash test.sh** to run the test script. 
+<br/>
+**Keys pressed:**  *\<up\>* *\<up\>* *\<enter\>*
+<br/>
+The **up key** was used to access the previous command **bash test.sh**, and the **enter key** ran the test script and showed the results of the test in the terminal.
+---
+
+## Step 9
+
+---
+<img width="1099" alt="Screenshot 2023-11-19 at 7 58 43 PM" src="https://github.com/jkondo14/cse15l-lab-reports/assets/146896972/13a19acb-5fd4-49b7-a283-f17826217476">
+
+<br/>
+<br/>
+
+I opened the GitHub Desktop application and committed the change to the file.
+
