@@ -3,20 +3,25 @@
 ## Part 1 - Debugging Scenario
 
 ### Annonymous
-**18 minutes ago** <br/>
+**18 minutes ago**
+
+<br/>
+
 <img width="498" alt="Screenshot 2023-12-03 at 3 21 29 AM" src="https://github.com/jkondo14/cse15l-lab-reports/assets/146896972/22cc7035-7da1-4736-9926-60169a55b9a6">
 <img width="669" alt="Screenshot 2023-12-03 at 3 21 44 AM" src="https://github.com/jkondo14/cse15l-lab-reports/assets/146896972/c012ee80-03e3-4ead-a047-97a62370b082">
 <img width="791" alt="Screenshot 2023-12-03 at 3 20 57 AM" src="https://github.com/jkondo14/cse15l-lab-reports/assets/146896972/afe92f3c-4abd-4aa8-b383-f4ce7830cbbf">
-```
-Hi, when testing the Java File ArrayExamples.java with the bash script, test.sh, I continuously run into failures and never get the answer correctly. I believe my test input and expected correct
-as they are in reverse order. I am wondering what about ArrayExamples.java, in particular the reversed function, may be incorrect as I am not sure what the problem may be.
-```
+
+
+Hi, when testing the Java File ArrayExamples.java with the bash script, test.sh, I continuously run into failures and never get the answer correctly. I believe my test input and expectations are correct as they are in reverse order. I am wondering what about ArrayExamples.java, in particular the reversed function, which may be incorrect as I am not sure what the problem may be.
+
 
 ### Joe Politz
 **Just Now**
-```
+
+<br/>
+
 Hello there. Read the instructions clearly as it states to return a new array and when transferring that for loop, what would happen if the array is pulling the values from the same array. 
-```
+
 
 ---
 ## Part 2 - Reflection
