@@ -75,11 +75,11 @@ the i key was to enter insert mode, the 2 was to edit the index to index2, the e
 
 <img width="387" alt="Screenshot 2023-11-19 at 9 45 14 PM" src="https://github.com/jkondo14/cse15l-lab-reports/assets/146896972/d0207ed1-b94f-4cbf-aaab-4d903f3b85d8">
 <br>
-<br>
+
 In the terminal, I accessed the command history to use `bash test.sh` to run the test script. 
-<br/>
+<br>
 **Keys pressed:**  `<up><up><enter>`
-<br/>
+<br>
 The **up key** was used to access the previous command `bash test.sh` from the command history, and the **enter key** ran the test script and showed the test results in the terminal, which passed as we fixed the errors in ListExamples.java.
 
 ---
@@ -89,10 +89,13 @@ The **up key** was used to access the previous command `bash test.sh` from the c
 ---
 <img width="751" alt="Screenshot 2023-12-03 at 1 13 06 AM" src="https://github.com/jkondo14/cse15l-lab-reports/assets/146896972/e6ba4a4a-b2fd-49e4-b3b0-4fbeb9e25d6a">
 <br>
-<br>
-As our final steps of the lab, I committed and pushed the changes to my GitHub Account.
+
+As our final steps of the lab, I committed and pushed the changes to my GitHub Account. <br/>
 **Keys pressed:** `git<space>add<space>ListExamples.java<enter>`
-**Keys pressed:** `git<space>commit<space>-m<space>"fixed index2"<enter>`
+<br/>
+**Keys pressed:** `git<space>commit<space>-m<space>"fixed<space>index2"<enter>`
+<br/>
 **Keys pressed:** `git<space>push<enter>`
+<br/>
 Using git add, git commit, and git push, I successfully pushed the repository changes to match the repository hosted on the remote, which is GitHub.
 
