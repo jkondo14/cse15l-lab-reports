@@ -7,11 +7,11 @@
 <br>
 <br>
 
-In order to log in to ssh, I typed into the terminal *ssh* cs15lfa23nl@ieng6.ucsd.edu
+In order to log in to ssh, I typed into the terminal `ssh cs15lfa23nl@ieng6.ucsd.edu`
 <br/>
-**Keys pressed:** *\<enter\>*
+**Keys pressed:** `ssh<space>cs15lfa23nl@ieng6.ucsd.edu<enter>`
 <br/>
-The **enter key** ran the command and logged me into my ssh account. 
+The **enter key** ran the command and logged me into my ssh account as I had set up to login without requiring me to enter the password for my ieng6 account. 
 
 ---
 
@@ -22,15 +22,16 @@ The **enter key** ran the command and logged me into my ssh account.
 <br>
 <br>
 
-In the terminal, I typed **cd .ssh** to change the working directory to the ssh directory.
+I typed `cd .ssh` in the terminal to change the working directory to the ssh directory.
 <br/>
-**Keys pressed:** *\<enter\>*
+**Keys pressed:** `cd<space>.ssh<enter>`
 <br/>
 The **enter key** changed the working directory.
 <br/>
-In the terminal, I typed **git clone git@github.com:jkondo14/lab7.git** to clone the repository we forked earlier.
 <br/>
-**Keys pressed:** *\<enter\>*
+In the terminal, I typed `git clone git@github.com:jkondo14/lab7.git` to clone the repository we forked earlier.
+<br/>
+**Keys pressed:** `git<space>clone<space>git@github.com:jkondo14/lab7.git<enter>`
 <br/>
 The **enter key** cloned the repository into the ssh account. 
 
@@ -42,18 +43,18 @@ The **enter key** cloned the repository into the ssh account.
 <br>
 <br>
 
-In the terminal, I typed **cd lab7** to change the working directory to the lab7 directory.
+In the terminal, I typed `cd lab7` to change the working directory to the lab7 directory to access the files, including the bash script within the lab7 directory.
 <br/>
-**Keys pressed:**  *\<enter\>*
+**Keys pressed:** `cd<space>lab7<enter>`
 <br/>
 The **enter key** changed the working directory.
 <br/>
 <br/>
-In the terminal, I typed **bash test.sh** to run the test script. 
+In the terminal, I typed `bash test.sh` to run the test script, where test.sh was the name of the bash script to be run. 
 <br/>
-**Keys pressed:**  *\<enter\>*
+**Keys pressed:**  `bash<space>test.sh<enter>`
 <br/>
-The **enter key** ran the test script and showed the results of the test in the terminal.
+The **enter key** ran the test script and showed the test results in the terminal.
 
 ---
 
@@ -65,12 +66,11 @@ The **enter key** ran the test script and showed the results of the test in the 
 
 In the terminal, I typed **vim ListExamples.java** to edit the ListExamples.java.
 <br/>
-**Keys pressed:**  *\<down\>* *\<down\>* *\<down\>* *\<down\>* *\<down\>* *\<down\>* *\<down\>* *\<l\>* *\<l\>* *\<l\>* *\<l\>* *\<l\>* *\<l\>* *\<l\>* *\<l\>* *\<l\>* *\<l\>*
-*\<x\>* *\<i\>* *\<2\>* *\<esc\>* *\<\:\>* *\<w\>* *\<q\>*
+**Keys pressed:**  `<down><down><down><down><down><down><down>lllllllllllxi2<esc>:wq`
 
 <br>
 
-The down key was used to get to the line I wanted to edit, I used the l key to move to the right to the bug, the x key was used to delete the bug,
+The down key was used to get to the line I wanted to edit, which was line 44 where the error was, and I used the l key to move to the right to the bug. The x key was used to delete the bug,
 the i key was to enter insert mode, the 2 was to edit the index to index2, the escape key was to escape editing, and the :wp command was used to save and exit the file.
 
 ---
@@ -80,11 +80,11 @@ the i key was to enter insert mode, the 2 was to edit the index to index2, the e
 <img width="387" alt="Screenshot 2023-11-19 at 9 45 14 PM" src="https://github.com/jkondo14/cse15l-lab-reports/assets/146896972/d0207ed1-b94f-4cbf-aaab-4d903f3b85d8">
 
 
-In the terminal, I accessed **bash test.sh** to run the test script. 
+In the terminal, I accessed the command history to use `bash test.sh` to run the test script. 
 <br/>
-**Keys pressed:**  *\<up\>* *\<up\>* *\<enter\>*
+**Keys pressed:**  `<up><up><enter>`
 <br/>
-The **up key** was used to access the previous command **bash test.sh**, and the **enter key** ran the test script and showed the results of the test in the terminal.
+The **up key** was used to access the previous command `bash test.sh` from the command history, and the **enter key** ran the test script and showed the test results in the terminal, which passed as we fixed the errors in ListExamples.java.
 
 ---
 
