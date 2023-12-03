@@ -5,7 +5,6 @@
 <img width="561" alt="Screenshot 2023-11-19 at 8 21 46 PM" src="https://github.com/jkondo14/cse15l-lab-reports/assets/146896972/7e313165-8464-4576-96a8-1322e7d73c23">
 
 <br>
-<br>
 
 In order to log in to ssh, I typed into the terminal `ssh cs15lfa23nl@ieng6.ucsd.edu`
 <br/>
@@ -19,7 +18,6 @@ The **enter key** ran the command and logged me into my ssh account as I had set
 
 <img width="879" alt="Screenshot 2023-11-19 at 7 38 56 PM" src="https://github.com/jkondo14/cse15l-lab-reports/assets/146896972/985e8cb9-982b-4dba-8273-cc63ee30d7f5">
 
-<br>
 <br>
 
 I typed `cd .ssh` in the terminal to change the working directory to the ssh directory.
@@ -53,7 +51,6 @@ The **enter key** changed the working directory.
 In the terminal, I typed `bash test.sh` to run the test script, where test.sh was the name of the bash script to be run. 
 <br/>
 **Keys pressed:**  `bash<space>test.sh<enter>`
-<br/>
 The **enter key** ran the test script and showed the test results in the terminal.
 
 ---
@@ -67,11 +64,8 @@ The **enter key** ran the test script and showed the test results in the termina
 In the terminal, I typed **vim ListExamples.java** to edit the ListExamples.java.
 <br/>
 **Keys pressed:**  `<down><down><down><down><down><down><down>lllllllllllxi2<esc>:wq`
-
-<br>
-
-The down key was used to get to the line I wanted to edit, which was line 44 where the error was, and I used the l key to move to the right to the bug. The x key was used to delete the bug,
-the i key was to enter insert mode, the 2 was to edit the index to index2, the escape key was to escape editing, and the :wp command was used to save and exit the file.
+The down key was used to get to the line I wanted to edit, which was line 44 where the error was, and I used the l key to move to the right to the bug. The x key was used to delete 1, which was the bug,
+the i key was to enter insert mode, the 2 was to edit the index to index2, the escape key was to escape editing, and the `:wq` command was used to save and exit the file.
 
 ---
 
@@ -91,10 +85,16 @@ The **up key** was used to access the previous command `bash test.sh` from the c
 ## Step 9
 
 ---
-<img width="1099" alt="Screenshot 2023-11-19 at 7 58 43 PM" src="https://github.com/jkondo14/cse15l-lab-reports/assets/146896972/13a19acb-5fd4-49b7-a283-f17826217476">
+<img width="751" alt="Screenshot 2023-12-03 at 1 13 06 AM" src="https://github.com/jkondo14/cse15l-lab-reports/assets/146896972/e6ba4a4a-b2fd-49e4-b3b0-4fbeb9e25d6a">
+
 
 <br/>
-<br/>
-
-I opened the GitHub Desktop application and committed the change to the file.
+As out final steps of the lab, I committed and pushed the changes to my GitHub Account.
+**Keys pressed:** `git<space>add<space>ListExamples.java<enter>`
+<br\>
+**Keys pressed:** `git<space>commit<space>-m<space>"fixed index2"<enter>`
+<br\>
+**Keys pressed:** `git<space>push<enter>`
+<br\>
+Using git add, git commit, and git push, I successfully pushed the repository changes to match the repository hosted on the remote, which is GitHub.
 
