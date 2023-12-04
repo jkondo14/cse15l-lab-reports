@@ -30,6 +30,8 @@ Hello there. Read the instructions clearly as it states to return a new array an
 
 <img width="434" alt="Screenshot 2023-12-03 at 3 39 15 AM" src="https://github.com/jkondo14/cse15l-lab-reports/assets/146896972/413102a2-52fd-4d20-aba7-971f35b5ccad">
 
+---
+
 **File/Directory Structure:** Need the lab3 files and be in the lab3 directory to access the files and the bash script
 
 <br/>
