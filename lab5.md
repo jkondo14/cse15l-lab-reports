@@ -22,7 +22,7 @@ Hi, when testing the Java File ArrayExamples.java with the bash script, test.sh,
 ### Joe Politz
 **Just Now**
 
-Hello there. Read the instructions clearly as it states to return a new array and when transferring that for loop, what would happen if the array is pulling the values from the same array. 
+Hello there. Read the instructions clearly as it states to return a new array and when traversing the for loop, what would happen if the array is pulling the values for its indices from the same array? 
 
 ---
 ### Student's work after receiving assistance
